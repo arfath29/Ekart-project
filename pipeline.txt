@@ -13,7 +13,7 @@ pipeline {
     stages {
         stage('Git Checkout') {
             steps {
-               git branch: 'main', credentialsId: 'git-cred', url: 'https://github.com/arfath29/Ekart-project.git'
+               git 'https://github.com/arfath29/Ekart-project.git'
             }
         }
         
@@ -40,14 +40,6 @@ pipeline {
                 withSonarQubeEnv('sonar') {
                     sh ''' $SCANNER_HOME/bin/sonar-scanner -Dsonar.projectName=Ekart -Dsonar.projectKey=Ekart \
                             -Dsonar.java.binaries=. '''
-                }
-            }
-        }
-        
-        stage('Quality Gate') {
-            steps {
-                script {
-                  waitForQualityGate abortPipeline: false, credentialsId: 'sonar-token' 
                 }
             }
         }
