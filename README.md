@@ -17,7 +17,7 @@ Kubernetes: Orchestration of Docker containers for scalable and resilient deploy
 SonarQube: Continuous inspection of code quality and security vulnerabilities.
 Trivy: Vulnerability scanner for containers.
 Nexus: Repository manager for storing and retrieving build artifacts.
-![Ekart Logo](ekart-logo.png)
+
 CI/CD Pipeline
 The project includes a comprehensive Jenkins pipeline that automates the following stages:
 
