@@ -1,5 +1,5 @@
 Ekart Project
-
+Screenshot_13-6-2024_204116
 Project Overview :
 The Ekart Project is an e-commerce platform that allows users to browse and purchase a variety of products. This project showcases the use of modern CI/CD practices and tools to ensure high-quality code, secure software, and streamlined deployment processes.
 
