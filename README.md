@@ -1,9 +1,9 @@
+EKART PROJECT
 
-Ekart Project
-Project Overview
+Project Overview:
 The Ekart Project is an e-commerce platform that allows users to browse and purchase a variety of products. This project showcases the use of modern CI/CD practices and tools to ensure high-quality code, secure software, and streamlined deployment processes.
 
-Key Features
+Key Features:
 User-Friendly Interface: A responsive and intuitive interface for a seamless shopping experience.
 Product Management: Features for adding, updating, and removing products.
 Order Processing: Efficient order management system for tracking and fulfilling orders.
@@ -17,6 +17,7 @@ Kubernetes: Orchestration of Docker containers for scalable and resilient deploy
 SonarQube: Continuous inspection of code quality and security vulnerabilities.
 Trivy: Vulnerability scanner for containers.
 Nexus: Repository manager for storing and retrieving build artifacts.
+
 CI/CD Pipeline
 The project includes a comprehensive Jenkins pipeline that automates the following stages:
 
@@ -36,4 +37,3 @@ The project includes a comprehensive Jenkins pipeline that automates the followi
 Access the Project
 You can view the complete project on GitHub, which includes the source code, Jenkins pipeline script, Docker configurations, and Kubernetes deployment files.
 
-Ekart Project on GitHub
