@@ -5,19 +5,13 @@ The Ekart Project is an e-commerce platform that allows users to browse and purc
 ![Alt Text](https://github.com/arfath29/Ekart-project/blob/master/screenshots/Screenshot_18-6-2024_203723_www.youtube.com.jpeg)
 
 ## Key Features :
-### User-Friendly Interface: 
-A responsive and intuitive interface for a seamless shopping experience.
-### Product Management: 
-Features for adding, updating, and removing products.
-### Order Processing: 
-Efficient order management system for tracking and fulfilling orders.
-### Security: 
-Implemented various security measures to protect user data and ensure secure transactions.
+### User-Friendly Interface: A responsive and intuitive interface for a seamless shopping experience.
+### Product Management:Features for adding, updating, and removing products.
+### Order Processing: Efficient order management system for tracking and fulfilling orders.
+### Security: Implemented various security measures to protect user data and ensure secure transactions.
 ## Technologies Used
-### Java: 
-Core backend development.
-### Jenkins: 
-Continuous Integration and Continuous Deployment (CI/CD) automation.
+### Java: Core backend development.
+### Jenkins:Continuous Integration and Continuous Deployment (CI/CD) automation.
 ```bash
  $ sudo apt update
 ```
@@ -37,8 +31,7 @@ Continuous Integration and Continuous Deployment (CI/CD) automation.
  $ sudo systemctl start jenkins 
  $ sudo systemctl status jenkins
  ```
-### SonarQube: 
-Continuous inspection of code quality and security vulnerabilities.
+### SonarQube:Continuous inspection of code quality and security vulnerabilities.
 ```bash
 $ apt install docker.io
 ```
@@ -46,8 +39,7 @@ $ apt install docker.io
 $ docker run -d -p 9000:9000 sonarqube:lts-community
 ```
 ![Alt Text](https://github.com/arfath29/Ekart-project/blob/master/screenshots/Screenshot_18-6-2024_205328_www.youtube.com.jpeg)
-### Nexus:
-Repository manager for storing and retrieving build artifacts.
+### Nexus:Repository manager for storing and retrieving build artifacts.
 ```bash
 $ docker run -d -p 8081:8081 sonatype/nexus3
 $ docker exec -it <container id> /bin/bash
@@ -57,12 +49,9 @@ $ cd sonatype-work/nexus3
 $ cat admin.password
 ```
 ![Alt Text](https://github.com/arfath29/Ekart-project/blob/master/screenshots/Screenshot_13-6-2024_204116_15.207.72.196.jpeg)
-### Maven: 
-Dependency management and build automation.
-### Docker: 
-Containerization of the application for consistent and portable deployment.
-### Kubernetes: 
-Orchestration of Docker containers for scalable and resilient deployment.
+### Maven:Dependency management and build automation.
+### Docker:Containerization of the application for consistent and portable deployment.
+### Kubernetes:Orchestration of Docker containers for scalable and resilient deployment.
 ## Setup K8-Cluster using kubeadm [K8 Version-->1.28.1]
 
 ### 1. Update System Packages [On Master & Worker Node]
@@ -144,20 +133,19 @@ $ sudo apt-get install trivy
 ## CI/CD Pipeline
 The project includes a comprehensive Jenkins pipeline that automates the following stages:
 
-1. Git Checkout: Cloning the project repository.
-2. Compile: Compiling the project using Maven.
-3. Test: Running unit tests to ensure code quality.
-4. File System Scan: Scanning the file system for vulnerabilities using Trivy.
-5. SonarQube Analysis: Performing static code analysis to detect bugs, code smells, and security vulnerabilities.
-6. Quality Gate: Ensuring the code meets the quality standards set by SonarQube.
-7. Build: Packaging the application using Maven.
-8. Publish to Nexus: Deploying the build artifacts to a Nexus repository.
-9. Build & Tag Docker Image: Creating and tagging Docker images.
-10. Docker Image Scan: Scanning Docker images for vulnerabilities using Trivy.
-11. Push Docker Image: Pushing Docker images to a Docker registry.
-12. Deploy to Kubernetes: Deploying the application to a Kubernetes cluster.
-13. Verify the Deployment: Ensuring the deployment is successful by checking the status of pods and services.
-Access the Project
+1. ### Git Checkout: Cloning the project repository.
+2. ### Compile: Compiling the project using Maven.
+3. ### Test: Running unit tests to ensure code quality.
+4. ### File System Scan: Scanning the file system for vulnerabilities using Trivy.
+5. ### SonarQube Analysis: Performing static code analysis to detect bugs, code smells, and security vulnerabilities.
+6. ### Quality Gate: Ensuring the code meets the quality standards set by SonarQube.
+7. ### Build: Packaging the application using Maven.
+8. ### Publish to Nexus: Deploying the build artifacts to a Nexus repository.
+9. ### Build & Tag Docker Image: Creating and tagging Docker images.
+10. ### Docker Image Scan: Scanning Docker images for vulnerabilities using Trivy.
+11. ### Push Docker Image: Pushing Docker images to a Docker registry.
+12. ### Deploy to Kubernetes: Deploying the application to a Kubernetes cluster.
+13. ### Verify the Deployment: Ensuring the deployment is successful by checking the status of pods and services.
 ## Pipeline 
 
 ```groovy
