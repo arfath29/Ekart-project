@@ -5,7 +5,6 @@ The Ekart Project is an e-commerce platform that allows users to browse and purc
 ![Alt Text](https://github.com/arfath29/Ekart-project/blob/master/Screenshot_18-6-2024_203723_www.youtube.com.jpeg)
 
 ## Key Features :
-<<<<<<< HEAD
 ### User-Friendly Interface: 
 A responsive and intuitive interface for a seamless shopping experience.
 ### Product Management: 
@@ -46,22 +45,6 @@ $ apt install docker.io
 ```bash
 $ docker run -d -p 9000:9000 sonarqube:lts-community
 ```
-=======
-### User-Friendly Interface:<span style="font-size:10px;"> A responsive and intuitive interface for a seamless shopping experience.
-### Product Management: 
-Features for adding, updating, and removing products.
-Order Processing: Efficient order management system for tracking and fulfilling orders.
-Security: Implemented various security measures to protect user data and ensure secure transactions.
-Technologies Used
-Java: Core backend development.
-Spring Boot: Framework for creating stand-alone, production-grade Spring-based applications.
-Maven: Dependency management and build automation.
-Docker: Containerization of the application for consistent and portable deployment.
-Kubernetes: Orchestration of Docker containers for scalable and resilient deployment.
-SonarQube: Continuous inspection of code quality and security vulnerabilities.
-Trivy: Vulnerability scanner for containers.
-Nexus: Repository manager for storing and retrieving build artifacts.
->>>>>>> b4ac7b1bd17cc9230379dd35f0bd90694c6690ea
 
 ![Alt Text](https://github.com/arfath29/Ekart-project/blob/master/Screenshot_18-6-2024_203723_www.youtube.com.jpeg)
 ### Nexus:
