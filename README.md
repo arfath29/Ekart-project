@@ -2,7 +2,7 @@
 
 ## Project Overview :
 The Ekart Project is an e-commerce platform that allows users to browse and purchase a variety of products. This project showcases the use of modern CI/CD practices and tools to ensure high-quality code, secure software, and streamlined deployment processes.
-![Alt Text](https://github.com/arfath29/Ekart-project/blob/master/Screenshot_18-6-2024_203723_www.youtube.com.jpeg)
+![Alt Text](https://github.com/arfath29/Ekart-project/blob/master/screenshots/Screenshot_18-6-2024_203723_www.youtube.com.jpeg)
 
 ## Key Features :
 ### User-Friendly Interface: 
@@ -45,7 +45,7 @@ $ apt install docker.io
 ```bash
 $ docker run -d -p 9000:9000 sonarqube:lts-community
 ```
-![Alt Text](https://github.com/arfath29/Ekart-project/blob/master/Screenshot_18-6-2024_205328_www.youtube.com.jpeg)
+![Alt Text](https://github.com/arfath29/Ekart-project/blob/master/screenshots/Screenshot_18-6-2024_205328_www.youtube.com.jpeg)
 ### Nexus:
 Repository manager for storing and retrieving build artifacts.
 ```bash
@@ -56,7 +56,7 @@ $ docker exec -it <container id> /bin/bash
 $ cd sonatype-work/nexus3
 $ cat admin.password
 ```
-![Alt Text](https://github.com/arfath29/Ekart-project/blob/master/Screenshot_13-6-2024_204116_15.207.72.196.jpeg)
+![Alt Text](https://github.com/arfath29/Ekart-project/blob/master/screenshots/Screenshot_13-6-2024_204116_15.207.72.196.jpeg)
 ### Maven: 
 Dependency management and build automation.
 ### Docker: 
