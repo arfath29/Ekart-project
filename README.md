@@ -45,8 +45,7 @@ $ apt install docker.io
 ```bash
 $ docker run -d -p 9000:9000 sonarqube:lts-community
 ```
-
-![Alt Text](https://github.com/arfath29/Ekart-project/blob/master/Screenshot_18-6-2024_203723_www.youtube.com.jpeg)
+![Alt Text](https://github.com/arfath29/Ekart-project/blob/master/Screenshot_18-6-2024_205328_www.youtube.com.jpeg)
 ### Nexus:
 Repository manager for storing and retrieving build artifacts.
 ```bash
