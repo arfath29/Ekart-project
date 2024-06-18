@@ -5,7 +5,7 @@ The Ekart Project is an e-commerce platform that allows users to browse and purc
 
 ## Key Features :
 ### User-Friendly Interface: A responsive and intuitive interface for a seamless shopping experience.
-Product Management: Features for adding, updating, and removing products.
+#### Product Management: Features for adding, updating, and removing products.
 Order Processing: Efficient order management system for tracking and fulfilling orders.
 Security: Implemented various security measures to protect user data and ensure secure transactions.
 Technologies Used
