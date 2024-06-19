@@ -12,6 +12,7 @@ The Ekart Project is an e-commerce platform that allows users to browse and purc
 ## Technologies Used
 ### Java: Core backend development.
 ### Jenkins:Continuous Integration and Continuous Deployment (CI/CD) automation.
+## Jenkins Setup:
 ```bash
  $ sudo apt update
 ```
@@ -32,6 +33,7 @@ The Ekart Project is an e-commerce platform that allows users to browse and purc
  $ sudo systemctl status jenkins
  ```
 ### SonarQube:Continuous inspection of code quality and security vulnerabilities.
+## SonarQube Setup:
 ```bash
 $ apt install docker.io
 ```
@@ -40,6 +42,7 @@ $ docker run -d -p 9000:9000 sonarqube:lts-community
 ```
 ![Alt Text](https://github.com/arfath29/Ekart-project/blob/master/screenshots/Screenshot_18-6-2024_205328_www.youtube.com.jpeg)
 ### Nexus:Repository manager for storing and retrieving build artifacts.
+## Nexus Setup:
 ```bash
 $ docker run -d -p 8081:8081 sonatype/nexus3
 $ docker exec -it <container id> /bin/bash
@@ -122,6 +125,7 @@ kubectl apply -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/cont
 
 ### Trivy:
 Vulnerability scanner for containers.
+## Trivy Setup(inside Jenkins-Server)
 ```bash
 $ sudo apt-get install wget apt-transport-https gnupg lsb-release
 $ wget -qO - https://aquasecurity.github.io/trivy-repo/deb/public.key | sudo apt-key add -
